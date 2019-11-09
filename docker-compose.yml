@@ -14,6 +14,7 @@ services:
       options:
         max-size: 5m
         max-file: "10"
+    restart: always
 #  mysql:
 #    image: mysql:5.7
 #    container_name: mysql5.7
@@ -40,7 +41,8 @@ services:
     ports:
       - 1080:1080
       - 1025:1025
+    restart: always
 networks:
   default:
     external:
-      name: shared
+      name: nginx-proxy
