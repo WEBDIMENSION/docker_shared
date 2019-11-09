@@ -1,1 +1,1 @@
-subjectAltName = DNS:*.local
+subjectAltName = DNS:*.local,DNS:fit-info.local,DNS:tournament.local
