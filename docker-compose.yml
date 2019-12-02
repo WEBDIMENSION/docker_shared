@@ -15,26 +15,6 @@ services:
         max-size: 5m
         max-file: "10"
     restart: always
-#  mysql:
-#    image: mysql:5.7
-#    container_name: mysql5.7
-##    user: "1000:50"
-#    volumes:
-#      - ./mysql/my.cnf:/etc/mysql/my.cnf
-#      - ./mysql/data:/var/lib/mysql
-#      - ./mysql/init:/docker-entrypoint-initdb.d
-#      - ./mysql/logs:/var/log/mysql
-##      - ./mysql/sql:/sql
-#    environment:
-#      MYSQL_USER: mysql
-#      MYSQL_PASSWORD: mysql
-#      MYSQL_ROOT_PASSWORD: root
-##      DB_HOST: mysql
-#    ports:
-#      - 3306:3306
-#    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --innodb_use_native_aio=0
-#    working_dir: /sql
-#    command: "sh ./tournament.sh"
   smtp:
     image: schickling/mailcatcher
     container_name: smtp
