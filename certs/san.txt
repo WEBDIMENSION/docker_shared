@@ -1,1 +1,1 @@
-subjectAltName = DNS:*.local,DNS:docker.local,DNS:fit-info.local,DNS:tournament.local
+subjectAltName = DNS:*.local,DNS:docker.local,DNS:fit-info.local,DNS:tournament.local,DNS:lo-furusato.moratame.net,DNS:femme-nail.local,DNS:hcs.local,DNS:q-shochu.local,DNS:blog.femme-nail.local,DNS:blog.hcs.local
