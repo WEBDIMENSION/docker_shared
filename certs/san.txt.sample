@@ -1,16 +1,7 @@
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1 = *.local
-DNS.2 = docker.local
-DNS.3 = tournament.local
-DNS.4 = femme-nail.local
-DNS.5 = hcs.local
-DNS.6 = blog.femme-nail.local
-DNS.7 = blog.hcs.local
-DNS.8 = q-shochu.local
-DNS.9 = fit-info.local
-DNS.10 = lo-furusato.moratame.net
-DNS.11 = lo-www.moratame.net
-DNS.12 = lo-api.moratame.net
+DNS.1 = docker.local
+DNS.2 = hoge.local
+DNS.3 = foo.local
 
