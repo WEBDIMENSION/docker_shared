@@ -2,31 +2,31 @@ version: "3"
 services:
   proxy:
     image: jwilder/nginx-proxy
-    container_name: proxy
+    container_name: "${PROXY_CONTAINER_NAME}"
     ports:
       - "80:80"
       - "443:443"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
-      - ./certs:/etc/nginx/certs:ro
+      - ${CERTS_DIR}:/etc/nginx/certs:ro
     restart: always
     logging:
       options:
-        max-size: 5m
+        max-size: "5m"
         max-file: "10"
   web:
     image: nginx
-    container_name: nginx_top
+    container_name: ${WEB_CONTAINER_NAME}
     environment:
-      VIRTUAL_HOST: docker.local
-      CERT_NAME: server
+      VIRTUAL_HOST: ${HOSTNAME}
+      CERT_NAME: ${CERTS_FILE_NAME}
       HTTPS_METHOD: noredirect
     volumes:
-      - ./web/src:/usr/share/nginx/html
-      - ./web/conf.d:/etc/nginx/conf.d
+      - ${WEB_DOCUMENT_ROOT}:/usr/share/nginx/html
+      - ${WEB_CONF_DIR}:/etc/nginx/conf.d
   smtp:
     image: schickling/mailcatcher
-    container_name: smtp
+    container_name: ${MAIL_CATCHER_CONTAINER_NAME}
     ports:
       - 1080:1080
       - 1025:1025
@@ -34,4 +34,4 @@ services:
 networks:
   default:
     external:
-      name: nginx-proxy
+      name: ${PROXY_NETWORK_NAME}
