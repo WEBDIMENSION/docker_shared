@@ -32,6 +32,15 @@ services:
       - 1080:1080
       - 1025:1025
     restart: always
+  portainer:
+    image: portainer/portainer
+    container_name: ${PORTAINER_CONTAINER_NAME}
+    ports:
+      - 9000:9000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${PORTAINER_DATA_DIR}:/data
+    restart: always
 networks:
   default:
     external:

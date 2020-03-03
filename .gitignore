@@ -1,5 +1,1 @@
-mysql/data/
-mysql/los/
-redis/data/
-.env
-/web/src/index.html
+portainer/data
