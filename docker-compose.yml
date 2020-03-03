@@ -24,6 +24,7 @@ services:
     volumes:
       - ${WEB_DOCUMENT_ROOT}:/usr/share/nginx/html
       - ${WEB_CONF_DIR}:/etc/nginx/conf.d
+    restart: always
   smtp:
     image: schickling/mailcatcher
     container_name: ${MAIL_CATCHER_CONTAINER_NAME}
