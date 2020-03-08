@@ -20,13 +20,24 @@ services:
     container_name: ${WEB_CONTAINER_NAME}
     environment:
       VIRTUAL_HOST: ${HOSTNAME}
-      VIRTUAL_HOST: ${MAIL_CATCHER_HOSTNAME}
-      VIRTUAL_HOST: ${JYUPYTER_HOSTNAME}
       CERT_NAME: ${CERTS_FILE_NAME}
       HTTPS_METHOD: noredirect
     volumes:
       - ${WEB_DOCUMENT_ROOT}:/usr/share/nginx/html
       - ${WEB_CONF_DIR}:/etc/nginx/conf.d
+    restart: always
+
+
+  mailcatcher:
+    image: nginx
+    container_name: ${MAIL_CATCHER_WEB_CONTAINER_NAME}
+    environment:
+      VIRTUAL_HOST: ${MAIL_CATCHER_HOSTNAME}
+      CERT_NAME: ${CERTS_FILE_NAME}
+      HTTPS_METHOD: noredirect
+    volumes:
+      - ${MAIL_CATCHER_DOCUMENT_ROOT}:/usr/share/nginx/html
+      - ${MAIL_CATCHER_CONF_DIR}:/etc/nginx/conf.d
     restart: always
 
   smtp:
