@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ff06e2f-0c73-4106-94e5-b84d7bb1bb98" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="442f76f7-43a8-48c8-b5be-86f7558f4f11" />
+  <component name="ProjectId" id="1Un47Qind49iTmF9WvVS90ayJ8x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/web/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/conf.d" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ff06e2f-0c73-4106-94e5-b84d7bb1bb98" name="Default Changelist" comment="" />
+      <created>1575978858274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575978858274</updated>
+      <workItem from="1575978866207" duration="44000" />
+      <workItem from="1575978932959" duration="495000" />
+      <workItem from="1575985697974" duration="49000" />
+      <workItem from="1575985753805" duration="3553000" />
+      <workItem from="1576332089082" duration="1305000" />
+      <workItem from="1578293713606" duration="4013000" />
+      <workItem from="1581735981136" duration="5924000" />
+    </task>
+    <task id="LOCAL-00001" summary="Mod docker top">
+      <created>1575979391563</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575979391564</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fix Nginx-proxy top">
+      <created>1575987623230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575987623230</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Remove mysql on nginx-proxy">
+      <created>1575987709125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575987709125</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Remove mysql on nginx-proxy">
+      <created>1575989294875</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575989294875</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Remove mysql on nginx-proxy">
+      <created>1576332531660</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576332531660</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix dotfiles">
+      <created>1578297814105</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578297814105</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix docker-compose.yml with .env">
+      <created>1581739472438</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581739472438</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix certs.sh with .env">
+      <created>1581739754801</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581739754801</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix docker-compose.yml">
+      <created>1581740231659</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581740231659</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Mod docker top" />
+    <MESSAGE value="Fix Nginx-proxy top" />
+    <MESSAGE value="Remove mysql on nginx-proxy" />
+    <MESSAGE value="Fix dotfiles" />
+    <MESSAGE value="Fix docker-compose.yml with .env" />
+    <MESSAGE value="Fix certs.sh with .env" />
+    <MESSAGE value="Fix docker-compose.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix docker-compose.yml" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="507" y="115" key="CommitChangelistDialog2" timestamp="1581740231445">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="507" y="115" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1581740231445" />
+    <state x="469" y="248" key="SettingsEditor" timestamp="1575978992838">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="469" y="248" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1575978992838" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1578294879630">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1920.1200@0.0.1920.1200" timestamp="1578294879630" />
+    <state x="560" y="335" key="Vcs.Push.Dialog.v2" timestamp="1581740235856">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="560" y="335" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1581740235856" />
+    <state x="638" y="379" key="git4idea.merge.GitPullDialog" timestamp="1578294003980">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="638" y="379" key="git4idea.merge.GitPullDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1578294003980" />
+    <state x="625" y="271" key="search.everywhere.popup" timestamp="1581739836630">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="625" y="271" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1581739836630" />
+  </component>
+</project>
